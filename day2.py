@@ -84,25 +84,25 @@ with open('data-day-2.txt') as f:
         # Get W-D-L score
         if arr[0] == "A":
             if arr[1] == "X":
-                sc2 = win_dict["Draw"]
+                sc2 = scores_dict["Scissors"]
             elif arr[1] == "Y":
-                sc2 = win_dict["Win"]
+                sc2 = scores_dict["Rock"]
             elif arr[1] == "Z":
-                sc2 = win_dict["Loss"]
+                sc2 = scores_dict["Paper"]
         elif arr[0] == "B":
             if arr[1] == "X":
-                sc2 = win_dict["Loss"]
+                sc2 = scores_dict["Rock"]
             elif arr[1] == "Y":
-                sc2 = win_dict["Draw"]
+                sc2 = scores_dict["Paper"]
             elif arr[1] == "Z":
-                sc2 = win_dict["Win"]
+                sc2 = scores_dict["Scissors"]
         elif arr[0] == "C":
             if arr[1] == "X":
-                sc2 = win_dict["Win"]
+                sc2 = scores_dict["Paper"]
             elif arr[1] == "Y":
-                sc2 = win_dict["Loss"]
+                sc2 = scores_dict["Scissors"]
             elif arr[1] == "Z":
-                sc2 = win_dict["Draw"]
+                sc2 = scores_dict["Rock"]
         # Sum both scores and append them to score array
         score2.append(sc1 + sc2)
 
