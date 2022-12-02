@@ -1,6 +1,3 @@
-# Import libraries
-import urllib.request  # the lib that handles the url stuff
-
 # Read day 1 input
 # Data downloaded from https://adventofcode.com/2022/day/1/input
 i = 0
