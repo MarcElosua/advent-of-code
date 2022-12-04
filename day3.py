@@ -24,9 +24,6 @@ sum(score)
 # Find the item type that corresponds to the badges of each three-Elf group.
 # What is the sum of the priorities of those item types?
 
-# https://stackoverflow.com/questions/5832856/how-to-read-file-n-lines-at-a-time
-from itertools import islice
-
 score2 = []
 group_dict = {} # Initialize array
 i = 0 # Initialize iterator
