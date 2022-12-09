@@ -1,5 +1,5 @@
-# Read day 6 input
-# Data downloaded from https://adventofcode.com/2022/day/6/input
+# Read day 7 input
+# Data downloaded from https://adventofcode.com/2022/day/7/input
 
 # Read initial setting
 import pandas as pd
