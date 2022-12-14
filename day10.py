@@ -59,8 +59,8 @@ crt = ""
 # line = "addx 5"
 with open('data-day-10.txt') as f:
     for line in f:
-        i += 1
-        print(i)
+        # i += 1
+        # print(i)
         line = line.rstrip()
         if "noop" in line:
             cycle += 1
