@@ -80,13 +80,6 @@ while len(queue) > 0:
 
 
 # Part 1 solution
-# We remove 1 from the final solution since we have added the counter at the end of the process so it goes 1 extra
-for i in visited2:
-    if (i[0], i[1]) == end:
-        print(i)
-        print(f"Number of steps necessary are: {i[2]}")
-
-print(f"Minimum number of steps required to get to the END is {list(counter)[-1]-1}")
 # Minimum number of steps required to get to the END is 472
 
 # --- Part Two ---
@@ -152,3 +145,4 @@ for start in start_ls:
 
 ## Solution
 print(f"Minimum number of steps to go from an a to the E is {min(min_ls)}")
+# Minimum number of steps to go from an a to the E is 465
